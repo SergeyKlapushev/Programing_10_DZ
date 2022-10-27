@@ -56,8 +56,9 @@ double[] ArithmeticMean(int[,] mat)
 
 void ShowArithmeticMean(double[] ans)
 {
+    Console.Write($"Среднее арифметическое каждого столбца: ");
     for(int i =0; i<ans.Length; i++)
     {
-        Console.Write($"{ans[i]:f1};");
+        Console.Write($"{ans[i]:f1}; ");
     }
 }
